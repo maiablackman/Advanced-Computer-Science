@@ -1,12 +1,12 @@
 public class ConditionalChallenge {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println("--- Part 1: Temperature Converter ---");
         boolean isCold = true;
         double temperature = 20;
         if (isCold == true) {
             temperature = temperature - 15;
-        } else; {
+        } else {
             temperature = temperature + 10;
         }
         System.out.println("The temperature is " + temperature + " degrees.");
@@ -40,7 +40,7 @@ public class ConditionalChallenge {
             System.out.println("Large");
         } else if (number > 0) {
             System.out.println("Positive");
-        } else if (number == 0 ) {
+        } else if (number == 0) {
             System.out.println("Zero");
         } else if (number < -100) {
             System.out.println("Very negative");
@@ -49,7 +49,7 @@ public class ConditionalChallenge {
         }
 
 
-        }
     }
+}
     
 
